@@ -1,0 +1,52 @@
+/* App.css */
+
+/* Reset body margins */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+/* Landing Page with Background Image */
+.landing-page {
+  background-image: url('https://images.unsplash.com/photo-1470058869958-2a77ade41c02?q=80&w=2070&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.landing-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.landing-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.landing-btn {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.landing-btn:hover {
+  background-color: #1b5e20;
+}
